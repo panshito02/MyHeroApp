@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6731DB0389DC0FD7B4EE27AF /* Pods_MyHeroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A067E5F3D620CDB73B033CB9 /* Pods_MyHeroApp.framework */; };
 		A5081BFD247701D700657625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5081BFC247701D700657625 /* AppDelegate.swift */; };
 		A5081BFF247701D700657625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5081BFE247701D700657625 /* SceneDelegate.swift */; };
-		A5081C01247701D700657625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5081C00247701D700657625 /* ViewController.swift */; };
+		A5081C01247701D700657625 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5081C00247701D700657625 /* HomePage.swift */; };
 		A5081C04247701D700657625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5081C02247701D700657625 /* Main.storyboard */; };
 		A5081C07247701D700657625 /* MyHeroApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5081C05247701D700657625 /* MyHeroApp.xcdatamodeld */; };
 		A5081C09247701DC00657625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5081C08247701DC00657625 /* Assets.xcassets */; };
 		A5081C0C247701DC00657625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5081C0A247701DC00657625 /* LaunchScreen.storyboard */; };
+		A5081C16247742FA00657625 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5081C15247742FA00657625 /* Hero.swift */; };
+		A5606B1124788928002753D6 /* HeroDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B1024788928002753D6 /* HeroDetailsPage.swift */; };
+		A5606B1324788FE6002753D6 /* HeroDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B1224788FE6002753D6 /* HeroDetailCell.swift */; };
+		A5606B1524789FAE002753D6 /* HeroDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B1424789FAE002753D6 /* HeroDetails.swift */; };
+		A5606B172478BDD5002753D6 /* HeroList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B162478BDD5002753D6 /* HeroList.swift */; };
+		A5606B192478C449002753D6 /* HeroResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B182478C449002753D6 /* HeroResultsViewController.swift */; };
+		A5606B1B2478C4A8002753D6 /* HeroResultsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B1A2478C4A8002753D6 /* HeroResultsTableCell.swift */; };
+		A5606B1E2478CC2B002753D6 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5606B1D2478CC2B002753D6 /* Indicator.swift */; };
+		A5AF3AF42477592900B082EB /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3AF32477592900B082EB /* HomePageCell.swift */; };
+		A5AF3AF62477742100B082EB /* HomePageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3AF52477742000B082EB /* HomePageTableCell.swift */; };
+		A5AF3AF924777EA000B082EB /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3AF824777EA000B082EB /* HomePageModel.swift */; };
+		A5AF3AFC2477812B00B082EB /* HeroServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF3AFB2477812B00B082EB /* HeroServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C0A03E1A536CC68D66C475 /* Pods-MyHeroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHeroApp.debug.xcconfig"; path = "Target Support Files/Pods-MyHeroApp/Pods-MyHeroApp.debug.xcconfig"; sourceTree = "<group>"; };
+		202C7B52E31E083463827D2D /* Pods-MyHeroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHeroApp.release.xcconfig"; path = "Target Support Files/Pods-MyHeroApp/Pods-MyHeroApp.release.xcconfig"; sourceTree = "<group>"; };
+		A067E5F3D620CDB73B033CB9 /* Pods_MyHeroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHeroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5081BF9247701D700657625 /* MyHeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5081BFC247701D700657625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5081BFE247701D700657625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5081C00247701D700657625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5081C00247701D700657625 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		A5081C03247701D700657625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5081C06247701D700657625 /* MyHeroApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHeroApp.xcdatamodel; sourceTree = "<group>"; };
 		A5081C08247701DC00657625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5081C0B247701DC00657625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5081C0D247701DC00657625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5081C15247742FA00657625 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		A5606B1024788928002753D6 /* HeroDetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsPage.swift; sourceTree = "<group>"; };
+		A5606B1224788FE6002753D6 /* HeroDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailCell.swift; sourceTree = "<group>"; };
+		A5606B1424789FAE002753D6 /* HeroDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetails.swift; sourceTree = "<group>"; };
+		A5606B162478BDD5002753D6 /* HeroList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroList.swift; sourceTree = "<group>"; };
+		A5606B182478C449002753D6 /* HeroResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroResultsViewController.swift; sourceTree = "<group>"; };
+		A5606B1A2478C4A8002753D6 /* HeroResultsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroResultsTableCell.swift; sourceTree = "<group>"; };
+		A5606B1D2478CC2B002753D6 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		A5AF3AF32477592900B082EB /* HomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
+		A5AF3AF52477742000B082EB /* HomePageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableCell.swift; sourceTree = "<group>"; };
+		A5AF3AF824777EA000B082EB /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		A5AF3AFB2477812B00B082EB /* HeroServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6731DB0389DC0FD7B4EE27AF /* Pods_MyHeroApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8729FDB692DBA03D64789331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A067E5F3D620CDB73B033CB9 /* Pods_MyHeroApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5081BF0247701D700657625 = {
 			isa = PBXGroup;
 			children = (
 				A5081BFB247701D700657625 /* MyHeroApp */,
 				A5081BFA247701D700657625 /* Products */,
+				E0917590551D570DBBC618D9 /* Pods */,
+				8729FDB692DBA03D64789331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +97,12 @@
 		A5081BFB247701D700657625 /* MyHeroApp */ = {
 			isa = PBXGroup;
 			children = (
+				A5AF3AFA2477810A00B082EB /* Services */,
+				A5AF3AF724777E8000B082EB /* Models */,
+				A5081C14247742C500657625 /* Entities */,
+				A5081C132477426F00657625 /* ViewController */,
 				A5081BFC247701D700657625 /* AppDelegate.swift */,
 				A5081BFE247701D700657625 /* SceneDelegate.swift */,
-				A5081C00247701D700657625 /* ViewController.swift */,
 				A5081C02247701D700657625 /* Main.storyboard */,
 				A5081C08247701DC00657625 /* Assets.xcassets */,
 				A5081C0A247701DC00657625 /* LaunchScreen.storyboard */,
@@ -70,6 +112,72 @@
 			path = MyHeroApp;
 			sourceTree = "<group>";
 		};
+		A5081C132477426F00657625 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5606B1C2478CC15002753D6 /* Generic */,
+				A5AF3AF2247758D600B082EB /* Cells */,
+				A5081C00247701D700657625 /* HomePage.swift */,
+				A5606B1024788928002753D6 /* HeroDetailsPage.swift */,
+				A5606B182478C449002753D6 /* HeroResultsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5081C14247742C500657625 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A5081C15247742FA00657625 /* Hero.swift */,
+				A5606B1424789FAE002753D6 /* HeroDetails.swift */,
+				A5606B162478BDD5002753D6 /* HeroList.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A5606B1C2478CC15002753D6 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				A5606B1D2478CC2B002753D6 /* Indicator.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		A5AF3AF2247758D600B082EB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF3AF32477592900B082EB /* HomePageCell.swift */,
+				A5AF3AF52477742000B082EB /* HomePageTableCell.swift */,
+				A5606B1224788FE6002753D6 /* HeroDetailCell.swift */,
+				A5606B1A2478C4A8002753D6 /* HeroResultsTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5AF3AF724777E8000B082EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF3AF824777EA000B082EB /* HomePageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5AF3AFA2477810A00B082EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF3AFB2477812B00B082EB /* HeroServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E0917590551D570DBBC618D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12C0A03E1A536CC68D66C475 /* Pods-MyHeroApp.debug.xcconfig */,
+				202C7B52E31E083463827D2D /* Pods-MyHeroApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5081C10247701DC00657625 /* Build configuration list for PBXNativeTarget "MyHeroApp" */;
 			buildPhases = (
+				95E9FB0FFBF37C5B3E802900 /* [CP] Check Pods Manifest.lock */,
 				A5081BF5247701D700657625 /* Sources */,
 				A5081BF6247701D700657625 /* Frameworks */,
 				A5081BF7247701D700657625 /* Resources */,
+				98E68B06C7E22EA5BB22F07E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +246,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95E9FB0FFBF37C5B3E802900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHeroApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E68B06C7E22EA5BB22F07E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyHeroApp/Pods-MyHeroApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyHeroApp/Pods-MyHeroApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyHeroApp/Pods-MyHeroApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5081BF5247701D700657625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5081C01247701D700657625 /* ViewController.swift in Sources */,
+				A5081C16247742FA00657625 /* Hero.swift in Sources */,
+				A5AF3AF62477742100B082EB /* HomePageTableCell.swift in Sources */,
+				A5606B1B2478C4A8002753D6 /* HeroResultsTableCell.swift in Sources */,
+				A5081C01247701D700657625 /* HomePage.swift in Sources */,
 				A5081BFD247701D700657625 /* AppDelegate.swift in Sources */,
+				A5AF3AF42477592900B082EB /* HomePageCell.swift in Sources */,
+				A5606B192478C449002753D6 /* HeroResultsViewController.swift in Sources */,
+				A5606B1E2478CC2B002753D6 /* Indicator.swift in Sources */,
+				A5606B1324788FE6002753D6 /* HeroDetailCell.swift in Sources */,
+				A5AF3AFC2477812B00B082EB /* HeroServices.swift in Sources */,
+				A5AF3AF924777EA000B082EB /* HomePageModel.swift in Sources */,
+				A5606B1524789FAE002753D6 /* HeroDetails.swift in Sources */,
+				A5606B1124788928002753D6 /* HeroDetailsPage.swift in Sources */,
+				A5606B172478BDD5002753D6 /* HeroList.swift in Sources */,
 				A5081BFF247701D700657625 /* SceneDelegate.swift in Sources */,
 				A5081C07247701D700657625 /* MyHeroApp.xcdatamodeld in Sources */,
 			);
@@ -286,6 +450,7 @@
 		};
 		A5081C11247701DC00657625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C0A03E1A536CC68D66C475 /* Pods-MyHeroApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +469,7 @@
 		};
 		A5081C12247701DC00657625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202C7B52E31E083463827D2D /* Pods-MyHeroApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
